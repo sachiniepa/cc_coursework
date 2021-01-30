@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: sachiniepa/ccnodejs:v1
+        image: sachiniepa/ccnodejs:v2
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
