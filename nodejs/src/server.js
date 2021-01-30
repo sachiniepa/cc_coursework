@@ -8,7 +8,7 @@ const HOST = '0.0.0.0';
 const app = express();
 
 app.get('/add/', (req, res) => {
-  res.status(200).send('Adding to constellation microservice mock response. \n');
+  res.status(200).send('Adding to constellation microservice mock response test. \n');
 });
 
 app.get('/remove/', (req, res) => {
